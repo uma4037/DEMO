@@ -1,0 +1,95 @@
+a:hover{
+    text-decoration: none;
+}
+
+.navbar-section{
+    background-color: #10847e;
+}
+.nav-item{
+    
+    padding: 0 12px;
+    font-size: 100%;
+}
+
+.nav-link{
+    font-size: 1.05rem;
+    color: #fff;
+}    
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.navbar-search-tab{
+    padding-top:2rem ;
+}
+.navbar-button{
+    padding: 1rem 0 ;
+    
+}
+.navbar-button-content{
+    color: #fff;
+    background-color:#014b47 ;
+}
+
+.search-bar-menu{
+    font-size: 1.05rem;
+    color: #fff;
+}
+.search-bar-menu:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-search-modal-button{
+    background-color: #10847e;
+}
+.navbar-search-modal-content{
+    border: solid 3px  #aaaaaa;
+    border-radius:5px ;
+    margin:  7%  2%;
+    padding: 3% 7%;
+}
+
+/* .navbar-modal-heading{
+    padding: 7% 7% ;
+} */
+
+.navbar-modal-content{
+    padding: 7% 7% ;
+}
+
+.navbar-modal-subheading{
+    color: #fff;
+    background-color:#10847e ;
+    padding: 2px 10px;
+}
+
+.navbar-modal-steps-heading{
+    color:#10847e;
+}
+
+/* .modal-image{
+    position: absolute;
+    right: 5%;
+} */
+
+.modal-hr {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .modal-hr span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+
+ @media (max-width:1028px){
+
+    .navbar-button{
+        display:none;
+    }
+  
+  }
