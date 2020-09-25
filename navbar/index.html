@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Navbar</title>
+
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a07f142f8f.js" crossorigin="anonymous"></script>
+
+
+
+    <!--  BOOTSTRAP Scripts / Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+
+    <section class="navbar-section">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img class="_536c" src="https://d2y2l77dht9e8d.cloudfront.net/web-assets/dist/fca22bc9.png"
+                    alt="PharmEasy logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8  navbar-search-tab">
+                        
+                        
+                        <div class="input-group md-form form-sm form-2 pl-0">
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle  search-bar-menu" href="#" id="navbarDropdown" role="button" data-toggle="modal" data-target="#myModal" aria-haspopup="true" aria-expanded="false">
+                                  Select Pincode
+                                </a>
+                                <div id="myModal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+
+                                            <div class="modal-body">
+
+
+                                                <button type="button" class="close"
+                                                    data-dismiss="modal">&times;</button>
+
+                                                <div class="container-fluid  navbar-modal-content">
+                                                    <div class="row">
+                                                        <div class="col-sm-8">
+                                                            <h2>Choose your Location</h2>
+                                                            
+                                                        </div>
+
+                                                        <div class="col-sm-4">
+                                                            
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div  class="navbar-modal-content">
+                                                    <div class="input-group md-form form-sm form-2 pl-0">
+                                                    <input class="form-control my-0 py-1 " type="text" placeholder="Enter Pin Code" aria-label="Search">
+                                                    <div class="input-group-append"> <span><button type="button" class="btn  navbar-search-modal-button "> Check</button></span> </div>
+                                                </div>
+
+                                                <div  class="navbar-search-modal-content"  > <i class="fas fa-home"  ></i>  <strong><a href=""   style="color:#10847e;">Login to view addresses</a> </strong> </div>
+                                                <div  class="navbar-search-modal-content"> <i class="fas fa-motorcycle"></i>  Serving more than 1000 towns in India.</div>
+                                            </div>
+                                            </div>                                           
+                                            
+                                 </div>
+
+                                    </div>
+                                </div>
+                              
+                            </div>
+                              
+                                     
+                            <input class="form-control my-0 py-1 " type="text" placeholder="Search for Medicines/ Healthcare Products" aria-label="Search">
+                            <div class="input-group-append">
+                              <span class="input-group-text  lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                                  aria-hidden="true"></i></span>
+                            </div>
+                          </div>
+
+                        </div>
+                    <div class="col-sm-4">
+
+
+                        <div class="navbar-nav navbar-button">
+                            <ul class="navbar-nav ml-auto">
+                                <button type="button" class="btn   navbar-button-content" data-toggle="modal" data-target="#SearchModal">
+                                    <h6>Don't have a prescription?</h6>
+                                    <p>Get started</p>
+                                    
+                                </button>
+
+
+
+                                <!-- Modal -->
+                                <div id="SearchModal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+
+                                            <div class="modal-body">
+
+
+                                                <button type="button" class="close"
+                                                    data-dismiss="modal">&times;</button>
+
+                                                <div class="container-fluid  navbar-modal-content">
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h4>Don't have a prescription?</h4>
+                                                            <span class="navbar-modal-heading"> Don't worry </span>
+                                                        </div>
+
+                                                        <div class="col-sm-6">
+                                                            <img class="modal-image"
+                                                                src="https://d2y2l77dht9e8d.cloudfront.net/web-assets/dist/6e51a3f7.svg"
+                                                                alt="" class="_1JTAl">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div  class="navbar-modal-content">
+                                                    <h5  class="navbar-modal-steps-heading">Follow these steps:</h5>
+                                                    <p>1.Add medicines to your cart</p>
+                                                    <p>2.Select FREE Doctor consultation at
+                                                        checkout</p>
+                                                </div>
+                                            </div>
+
+                                            <h3 class="modal-hr"><span>OR</span></h3>
+
+                                            <div  class="navbar-modal-content">
+                                                <p> Call us at +91 99929 99929 and directly place your order </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Order medicines </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Healthcare Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Diagnostic Tests</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item  ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-tags"></i> Offers</a>
+                                </li>
+                                <li class="nav-item  ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-user"></i> Login / Signup</a>
+                                </li>
+                                <li class="nav-item  ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-cart"></i> Cart</a>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </nav>
+    </section>
+
+</body>
+
+</html>
